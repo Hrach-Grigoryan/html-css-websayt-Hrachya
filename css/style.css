@@ -1,0 +1,261 @@
+body{
+    padding: 0;
+    margin: 0;font-family: sans-serif;
+}
+
+
+header{
+    background-image: url(https://usebootstrap.com/preview-no-frame/traveler-master/images/img_bg_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+     text-decoration: none;
+     font-size: 24px;
+     color: #fff;
+}
+header .row{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.forinp{
+    width: 250px;
+    height: 400px;
+    padding: 40px;
+    background-color: #fff;
+    font-family: cursive;
+    border-radius: 25px;
+    
+   
+}
+
+
+.forinp input,select{
+    width: 100%;
+    box-shadow: none;
+    border: 2px solid rgba(0,0,0,.1);
+    /* height: 46px; */
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px 0;
+}
+
+.div1232{
+    color: #fff;
+    font-family: cursive;
+    margin: 120px;
+    margin-top:200px;
+    font-size: 30px;
+}
+.forinp .saas{
+    background-color: #f9dbdb;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+   
+}
+/* sec1 */
+.sec1 {
+    padding: 80px   ;
+}
+.sec1 .row{
+    display: flex;
+    justify-content: center;
+}
+.sec1 .row div{
+    box-shadow: 0 0 9px 1px gainsboro;  
+    width: 300px;
+    margin: 30px;
+    /* height: 250px   ; */
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fcfcfc;
+   
+}
+.sec1  .row div img{
+    width: 100%;
+    transition: 0.5s;
+ 
+
+}
+
+.sec1 .row div img:hover{
+    transform: scale(1.2);
+}
+.sec1 .row div button{
+    color: white;
+    padding: 10px 25px;
+    background-color: black;
+    cursor: pointer;
+    border: 0;
+    transition: 0.50s;
+}
+.sec1 .row div button:hover{
+    background-color: #09c6ab;
+}
+
+
+/* sec2 */
+.sec2{
+    padding: 80px;
+    background: #09c6ab;
+    /* height: 35vh; */
+    color: white;
+}
+
+.sec2 p{
+    line-height: 33px;
+    
+}
+.sec2 .row{
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 .icon {
+    height: 30px;
+    width:  30px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.icon i{
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+
+}
+ 
+.sec2 .row div{
+    width: 300px;
+    padding: 25px;
+    color: white;
+}
+/* sec3 */
+.sec3{
+    padding: 80px;
+    background-image: url(https://flomaster.top/o/uploads/posts/2023-11/1700705380_flomaster-top-p-spokoinaya-priroda-zarisovki-pinterest-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sec3 p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    transition: 0.50s;
+}
+.sec3 p:hover{
+    color: #09c6ab;
+}
+
+/* sec4 */
+
+.sec4{
+    height: 35vh;
+    padding: 80px;
+}
+.sec4  .row1 div span{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #09c6ab;
+    font-weight: 100;
+    display: block;
+    margin: 60px;
+}
+.sec4 .row  h2{
+    font-size: 29px; 
+     line-height: 1.5; 
+     font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+.sec4 .row1{
+    display: flex;
+    justify-content: center;
+}
+/* sec5 */
+.sec5{
+
+    padding: 100px;
+    background-color: #0098ef;;
+}
+.sec5 .row1 h2{
+    color: #fff;
+    font-family: sans-serif;
+}
+.sec5 .row2 input,.submit{
+    padding: 10px 15px;
+    margin: 15px;
+    width: 250px;
+}
+.sec5 .row2{
+    display: flex;
+    justify-content: space-around;
+}
+.sec5 .submit{
+    height: 46px;
+    border: none;
+    background: #09c6ab;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px 
+}
+/* footer */
+footer{
+    padding: 80px;
+
+}
+footer .row{
+    display: flex;
+    justify-content: space-around;
+}
+footer div{
+    /* margin: 25px; */
+    color:#09c6ab ;
+    font-size: 14px;
+}
+footer .row div h2{ 
+    font-size: 15px;
+}
+footer .row div p{
+    line-height: 36px;
+}
+footer .row2{
+    display: flex;
+    justify-content: space-between  ;
+}
+footer .icondiv{
+    margin-top: 60px;
+    display: flex;
+}
+footer .row div p{
+    margin: 20px;
+}
+footer .icondiv img{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+iframe{
+    width: 100%;
+    height: 700px;
+}
+
+
+
+
